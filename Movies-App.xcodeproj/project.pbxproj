@@ -24,6 +24,7 @@
 		E750492E29395D240068703E /* PosterImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E750492D29395D240068703E /* PosterImageView.swift */; };
 		E7504930293970500068703E /* UICollectionView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E750492F293970500068703E /* UICollectionView+Ext.swift */; };
 		E7504933293977C90068703E /* DetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7504932293977C90068703E /* DetailScreen.swift */; };
+		E7504935293A0BDC0068703E /* DetailScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7504934293A0BDC0068703E /* DetailScreenViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		E750492D29395D240068703E /* PosterImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterImageView.swift; sourceTree = "<group>"; };
 		E750492F293970500068703E /* UICollectionView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Ext.swift"; sourceTree = "<group>"; };
 		E7504932293977C90068703E /* DetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreen.swift; sourceTree = "<group>"; };
+		E7504934293A0BDC0068703E /* DetailScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreenViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				E7504932293977C90068703E /* DetailScreen.swift */,
+				E7504934293A0BDC0068703E /* DetailScreenViewModel.swift */,
 			);
 			path = DetailScreen;
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 				E747FB73293900C500A9AAEB /* MovieCell.swift in Sources */,
 				E747FB4B29377A2B00A9AAEB /* HomeScreen.swift in Sources */,
 				E747FB6E2938FC4800A9AAEB /* CGFloat+Ext.swift in Sources */,
+				E7504935293A0BDC0068703E /* DetailScreenViewModel.swift in Sources */,
 				E7504933293977C90068703E /* DetailScreen.swift in Sources */,
 				E747FB6C2938FAE900A9AAEB /* UIHelper.swift in Sources */,
 				E747FB6729378B6B00A9AAEB /* HomeViewModel.swift in Sources */,

@@ -21,6 +21,9 @@
 		E747FB6C2938FAE900A9AAEB /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E747FB6B2938FAE900A9AAEB /* UIHelper.swift */; };
 		E747FB6E2938FC4800A9AAEB /* CGFloat+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E747FB6D2938FC4800A9AAEB /* CGFloat+Ext.swift */; };
 		E747FB73293900C500A9AAEB /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E747FB72293900C500A9AAEB /* MovieCell.swift */; };
+		E750492E29395D240068703E /* PosterImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E750492D29395D240068703E /* PosterImageView.swift */; };
+		E7504930293970500068703E /* UICollectionView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E750492F293970500068703E /* UICollectionView+Ext.swift */; };
+		E7504933293977C90068703E /* DetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7504932293977C90068703E /* DetailScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,9 @@
 		E747FB6B2938FAE900A9AAEB /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		E747FB6D2938FC4800A9AAEB /* CGFloat+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Ext.swift"; sourceTree = "<group>"; };
 		E747FB72293900C500A9AAEB /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		E750492D29395D240068703E /* PosterImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterImageView.swift; sourceTree = "<group>"; };
+		E750492F293970500068703E /* UICollectionView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Ext.swift"; sourceTree = "<group>"; };
+		E7504932293977C90068703E /* DetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,7 @@
 		E747FB6529378AE800A9AAEB /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				E7504931293977A70068703E /* DetailScreen */,
 				E747FB712939009700A9AAEB /* HomeScreen */,
 				E747FB6F2939008100A9AAEB /* Components */,
 			);
@@ -126,6 +133,7 @@
 			children = (
 				E747FB692938EE8700A9AAEB /* UIView+Ext.swift */,
 				E747FB6D2938FC4800A9AAEB /* CGFloat+Ext.swift */,
+				E750492F293970500068703E /* UICollectionView+Ext.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -134,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				E747FB72293900C500A9AAEB /* MovieCell.swift */,
+				E750492D29395D240068703E /* PosterImageView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -145,6 +154,14 @@
 				E747FB6629378B6B00A9AAEB /* HomeViewModel.swift */,
 			);
 			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		E7504931293977A70068703E /* DetailScreen */ = {
+			isa = PBXGroup;
+			children = (
+				E7504932293977C90068703E /* DetailScreen.swift */,
+			);
+			path = DetailScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,12 +239,15 @@
 				E747FB73293900C500A9AAEB /* MovieCell.swift in Sources */,
 				E747FB4B29377A2B00A9AAEB /* HomeScreen.swift in Sources */,
 				E747FB6E2938FC4800A9AAEB /* CGFloat+Ext.swift in Sources */,
+				E7504933293977C90068703E /* DetailScreen.swift in Sources */,
 				E747FB6C2938FAE900A9AAEB /* UIHelper.swift in Sources */,
 				E747FB6729378B6B00A9AAEB /* HomeViewModel.swift in Sources */,
 				E747FB4729377A2B00A9AAEB /* AppDelegate.swift in Sources */,
 				E747FB6A2938EE8700A9AAEB /* UIView+Ext.swift in Sources */,
 				E747FB64293789DE00A9AAEB /* APIURLs.swift in Sources */,
+				E7504930293970500068703E /* UICollectionView+Ext.swift in Sources */,
 				E747FB4929377A2B00A9AAEB /* SceneDelegate.swift in Sources */,
+				E750492E29395D240068703E /* PosterImageView.swift in Sources */,
 				E747FB5F29377B0800A9AAEB /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
